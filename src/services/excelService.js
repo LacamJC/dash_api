@@ -13,7 +13,7 @@ exports.getAllData = () => {
         Total_de_chamados: total_chamados,
         chamados_finalizados: chamados_finalizados,
         chamados_em_aberto: chamados_em_aberto,
-        planilha: a
+        // planilha: a
     }
 }
 

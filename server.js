@@ -16,7 +16,7 @@ app.use(cors())
 app.use(morgan("dev"))
 app.use("/dashboard", authenticReq, routes)
 
-app.get("/", (req, res) => {
+app.get("/", authenticReq, (req, res) => {
     res.status(200).json({ message: "Entre em contato com @LacamJC para mais informações" })
 })
 
