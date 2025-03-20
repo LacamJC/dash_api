@@ -8,6 +8,8 @@ const router = express.Router()
 
 router.get("/", excelController.getAllData)
 router.post("/filters", excelController.getByFilters)
+router.get("/categorias", excelController.getCategoryData)
+router.get("/tendencias", excelController.getTendencia)
 
 
 
