@@ -8,7 +8,7 @@ const routes = require('./src/routes')
 const app = express()
 
 
-const chave = process.env.API_KEY
+const chave = "19id9k2917x9j2n0"
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
